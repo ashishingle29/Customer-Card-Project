@@ -8,13 +8,17 @@ const customerSchema = new mongoose.Schema({
         max: 10,
         min:10
     },
-    DOB:{type: Number},
+    DOB:{type: String}, //date
     emailID:{type: String},   // abc@xyz.com format 
     address:{type: String},
     customerID:{type: String},  //uuid
     status: {
     type:String,
-    default: "ACTIVE"}  // ACTIVE / INACTIVE
+    default: "ACTIVE"},  // ACTIVE / INACTIVE
+    isDeleted: {
+        type: Boolean,
+        default: false
+    }
 
     
 }, {timestamps: true})

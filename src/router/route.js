@@ -8,6 +8,7 @@ const cardController  = require('../controllers/cardControllers');
 router.post('/createCustomer', customerController.createCustomer);
 router.get('/getCustomer', customerController.getCustomerlist);
 router.delete('/deleteCustomer', customerController.deleteCustomer)
+router.delete('/deleteCustomer/:customerID', customerController.deleteCustomer)
 
 //................Card API.........................
 router.post('/createCard', cardController.createCard);
