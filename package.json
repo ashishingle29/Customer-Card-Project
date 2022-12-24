@@ -1,0 +1,29 @@
+{
+  "name": "customer-card-project",
+  "version": "1.0.0",
+  "description": "Customer Card Project.",
+  "main": "index.js",
+  "scripts": {
+    "test": "Git commands, nodemon and etc."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ashishingle29/Customer-Card-Project.git"
+  },
+  "keywords": [
+    "customar",
+    "Card"
+  ],
+  "author": "Ashish Ingle",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ashishingle29/Customer-Card-Project/issues"
+  },
+  "homepage": "https://github.com/ashishingle29/Customer-Card-Project#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^6.8.1",
+    "nodemon": "^2.0.20",
+    "uuid": "^9.0.0"
+  }
+}
