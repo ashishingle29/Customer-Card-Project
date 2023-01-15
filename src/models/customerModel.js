@@ -14,6 +14,7 @@ const customerSchema = new mongoose.Schema({
     customerID:{type: String},  //uuid
     status: {
     type:String,
+    enum: ["ACTIVE", "INACTIVE"],
     default: "ACTIVE"},  // ACTIVE / INACTIVE
     isDeleted: {
         type: Boolean,
